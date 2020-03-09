@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato-Light.ttf") format("truetype");
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato-Black.ttf") format("truetype");
+    font-weight: 900;
+  }
+  
+ html {
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 400;
+  }
+  
+  body {
+    width: 1020px;
+    background-color: #000;
+
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  
+  .wrapperPortfolio {
+    width: 1020px;
+    height: 870px;
+    background-color: #2d303a;
+    border-bottom: solid 6px #323746;
+
+  }
+  
+  .portfolio {
+    margin-left: 39px;
+  
+  } 
+  
+  .portfolio-info {
+    margin-top: 4.3rem;
+    margin-bottom: 0.45rem;
+  }
+  
+  .portfolio-info .info-title {
+    font-size: 1.875rem;
+    line-height: 1.125rem;
+    color: #666d89;
+    font-weight: 900;
+    letter-spacing: -0.011rem;
+  }
+  
+  .portfolio-info .info-description {
+    font-size: 1.125rem;
+    line-height: 2.23rem;
+    color: #767e9e;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  .portfolio-filter .filter-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .filter-list .list-item {
+    margin-right: 0.75rem;
+  }
+  
+
+  .filter-list .item-button {
+    text-decoration: none;
+    background: #323746;
+    border-radius: 5px;
+    border: 1px solid #767e9e;
+    font-size: 0.75rem;
+    line-height: 1.075rem;
+    color: #767e9e;
+    font-weight: 400;
+    letter-spacing: -0.03rem;
+    padding: 2px 9px 3px 8px;
+  }
+  
+  #activeItem {
+    color: #c5c5c5;
+    text-decoration: none;
+    background: #323746;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    font-size: 0.75rem;
+    line-height: 1.075rem;
+    font-weight: 400;
+    letter-spacing: -0.03rem;
+    padding: 2px 9px 3px 8px;
+    ;
+  }
+  
+  .list-item:nth-child(1) {
+    width: 30px;
+  }
+  
+  .list-item:nth-child(2) {
+    width: 82px;
+  }
+  
+  .list-item:nth-child(3) {
+    width: 96px;
+  }
+  
+  .list-item:nth-child(4) {
+    width: 58px;
+  }
+  
+  .portfolio-filter {
+    margin-bottom: 1.4rem;
+  }
+  
+  .portfolio-content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 224px);
+    grid-template-rows: repeat(3, 190px);
+    grid-gap: 0.9rem;
+   
+  }
+  
+  .about_us-wrapper {
+   
+    background-color: #f2f2f2;
+    padding: 2.6rem 2.5rem;
+  }
+  
+  .about_us-info h1 {
+    font-size: 1.875rem;
+    line-height: 1.125rem;
+    color: #666d89;
+    font-weight: 900;
+    letter-spacing: -0.011rem;
+  }
+  
+  .about_us-content h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+  }
+  
+  .about_us-info p {
+ 
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-top: 1.7rem;
+  }
+  
+  .about_us-info .span-wrapper-1 {
+    letter-spacing: 0.01rem;
+  }
+  
+  .about_us-info .span-wrapper-2 {
+    letter-spacing: 0rem;
+  }
+  
+  .about_us-content p {
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  .about_us-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .about_us-content img.people {
+    width: 300px;
+    height: 300px;
+  }
